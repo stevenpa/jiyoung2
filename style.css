@@ -1,0 +1,70 @@
+body {
+	background: #f5f5f5;
+	margin: 2rem;
+}
+
+.fullHeight {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Birthstone', handwriting;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 2.5rem;
+}
+
+p {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 400;
+	word-break: keep-all;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+img {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.heart {
+	width: 15px;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+}
+
+.heart-color {
+	fill: red;
+}
+
+
+/*--- ScrollFade Specific ---*/
+
+.scrollFade {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.scrollFade--hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.scrollFade--visible {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.scrollFade--animate {
+	transition: opacity 1s ease-in;
+}
+
+
+span.emoji {
+  font-size: 50px;
+  margin: 0 auto;
+}
+
